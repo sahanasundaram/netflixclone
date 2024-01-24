@@ -17,12 +17,12 @@ Profiles.User = function ProfilesUser({ children, ...restProps }) {
     return <Item {...restProps}>{children}</Item>;
 };
 
-Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
+Profiles.Picture = function ProfilesPicture({ src, alt, ...restProps }) {
     return (
-        <Picture {...restProps} src={src ? `/images/users/${src}.png` 
-        : `/images/misc/loading.gif`} />
+      <Picture {...restProps} src={src ? `/images/users/${src}.png` : `/images/misc/loading.gif`} alt={alt} />
     );
-};
+  };
+  
 
 Profiles.Name = function ProfilesName({ children, ...restProps }) {
     return <Name {...restProps}>{children}</Name>;

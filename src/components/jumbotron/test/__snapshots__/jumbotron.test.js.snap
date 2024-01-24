@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotron Component renders with default props 1`] = `
+<div
+  class="jumbotron__Item-sc-1m8aix0-1 gHAorY"
+  direction="row"
+>
+  <div
+    class="jumbotron__Inner-sc-1m8aix0-0 iWGevn"
+    direction="row"
+  />
+</div>
+`;
